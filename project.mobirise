@@ -1,0 +1,358 @@
+{
+  "settings": {
+    "name": "gemadaycare",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {},
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.8",
+    "siteFonts": [],
+    "uniqCompNum": 17,
+    "versionPublish": "5.4.1",
+    "screenshot": "screenshot.png",
+    "imageResize": true,
+    "favicon": "@PROJECT_PATH@/assets/images/nav-icon-128x128.png",
+    "mbrsiteDomain": "stgemmadaycare",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "publishChangesOnly": true
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#333333",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header4-2\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-6\">WELCOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-b\">GALLARY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts3-9\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"tel:0753006317\">CALL</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#292929"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/nav-icon-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "IPPS",
+              "link": "index.html#contacts3-9",
+              "linkInNewWindow": true
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ST.GEMMA DAY CARE CENTER</a>",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-1"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-1-2000x1333.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "ST.GEMMA DAY CARE CENTER",
+                "contentAlign": "center",
+                "text": "Welcome to ST.GEMMA DAY CARE ,Lets nourish our children's future in both academic and spiritual Foundation&nbsp;",
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"assets/files/Application-form-ST.GEMMA2021.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ADMISSION FORM</a>",
+                "overlay": true,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-3-2000x1333-800x533.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Sports &amp; Games",
+                "contentAlign": "center",
+                "text": "Good environment For Sports And Game,with close supervision to avoid<br>injuries or accidents to our children.",
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"assets/files/Application-form-ST.GEMMA2021.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ADMISSION FORM</a>",
+                "overlay": true,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-8-2000x1333-800x533.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Healthy Food",
+                "contentAlign": "center",
+                "text": "We provide meals rich of all food groups to ensure healthy minds for our children.",
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"assets/files/Application-form-ST.GEMMA2021.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ADMISSION</a>",
+                "overlay": true,
+                "alt": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-g",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": false,
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "WELCOME",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Welcome to St. Ignatius prep and primary School’s website\r</p><p>My name is Sr. Mungira Euphrasia CSG The headteacher of Ignatius School,\r</p><p>I am very grateful to God our Father for his protection and opportunity to widen our apostolate to the world.\r</p><p>It is my honour to welcome you all to our newly website to give us your suggestions and also receive ours for the betterment of the future generation. Ignatius prep &amp; primary school is a Jesuit school which insists in holistic education and stands for peace and justice to men and women for others. It is our desire to keep our information easily accessible worldwide for everyone to use for advising, encouraging as well as supporting our apostolate.\r</p><p>Our website contains academic performance, school’s events, grade seven graduates’ views and reports, Newly recruitment announcements, study tours reports, School terms, Alumnae’s reports, Family day’s reports and many other Ignatius prep and primary school information. This Web site intends to easy the updates between us and our stakeholders. Education for life is our school motto through this motto we make sure our ways of imparting knowledge and mold our generation doesn’t end in classes or at school only, we make sure it influences their total ways of living and seeing things in different angles but in a broader perspectives. Everybody who passes through our hands benefits with it not only academically but also in all corners of his/her being. You will find us with our core values as you visit our website.\r</p><p>Hence we welcome you all to share with us the responsibility of preparing our Nations by molding this generation for greater glory of God.\r</p><p>A.M.D.G</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"assets/files/Application-form-ST.GEMMA2021.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GET YOUR ADMISSION FORM HERE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-6"
+        },
+        {
+          "_params": {
+            "fullWidth": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "noGutter": true,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#4c6972",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-2-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-2-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-3-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-3-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-1-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-1-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-5-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-5-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-7-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-7-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-8-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-8-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-4-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stgemadaycarecenter-4-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-mg-2697-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-2697-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-b"
+        },
+        {
+          "_params": {
+            "inverse": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-d"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">CONTACT US</a>",
+          "text1": "<strong>ADDRESS</strong><br>\nDODOMA,TANZANIA<br>Area-C,Mnarani<br><br>\n<strong>CONTACTS</strong><br>\nEmail: ignatiuspreandprimaryschool@gmail.com<br>Phone_1: +255 753 006 317<br>Phone_2: +255 783 797 150<br>",
+          "text2": "<ul class=\"mbr-contacts__list\"></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "ignatiuspreandprimaryschool@gmail.com",
+            "alerts": {
+              "success": "Thank you we will get back to you ASAP!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-9"
+        }
+      ]
+    }
+  }
+}
